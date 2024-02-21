@@ -85,4 +85,10 @@ public class Robot {
 
         System.out.println( "Age ok");
     }
+    public double recordOwnerAndPayments(Owner myOwmer){
+        double cost = checkCost();
+        System.out.println(name +cost);
+        double monthpayment = myOwmer.getMonthlyPayments();
+        return cost+monthpayment;
+    }
 }
