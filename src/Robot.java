@@ -19,6 +19,9 @@ public class Robot {
         }
 
     }
+    public int getAge() {
+        return age;
+    }
 
     public boolean getWorkStatus() {
         return working;
